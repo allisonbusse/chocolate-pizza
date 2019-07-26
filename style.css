@@ -1,0 +1,32 @@
+body {
+    width: 901px;
+    margin: 0 auto;
+}
+
+ul {
+    list-style-type: none;
+}
+
+#ingredients {
+    display: flex;
+    height: 305px;
+    justify-content: space-around;
+    background-image: url("/assets/list-bg.png");
+}
+
+#author {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#author img {
+    float: left;
+    margin-right: 25px;
+}
+
+
+button {
+    width: 100px;
+    height: 40px;
+}
